@@ -3,6 +3,12 @@ name = "vkdl"
 version = "0.1.0"
 authors = ["djakish <69299717+djakish@users.noreply.github.com>"]
 edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Cli tool to download video from vk"
+homepage = "https://github.com/djakish/vkdl"
+keywords = ["vk"]
+categories = ["command-line-utilities"]
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
