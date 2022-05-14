@@ -5,6 +5,8 @@ you can't pick the res
 usage
 ```bash
 cargo build --release
+or 
+cargo install vkdl
 ```
 then use the binary
 ```bash
