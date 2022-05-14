@@ -31,7 +31,7 @@ async fn main() {
     if pattern.to_string().starts_with("https://vk.com/video") {
         let (url, title) = get_urls(pattern).await.unwrap();
         println!("{} downloaded", title);
-        fetch_file(url, title.to_string()).await.unwrap();
+        fetch_file(url, title.to_string() + ".mp4").await.unwrap();
     } else {
         println!("wrong url")
     }
